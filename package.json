@@ -1,0 +1,30 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ishkov2709/test-task",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /test-task/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishkov2709/test-task.git"
+  },
+  "keywords": [],
+  "author": "0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishkov2709/test-task/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
