@@ -1,0 +1,31 @@
+.ourworks {
+  padding: 50px 0;
+  background-color: $btnBgHero;
+
+  & .container {
+    display: flex;
+    gap: 190px;
+  }
+}
+
+.works-title {
+  font-weight: 800;
+  font-size: 44px;
+
+  margin-bottom: 50px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  margin-bottom: 28px;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 50px;
+}
