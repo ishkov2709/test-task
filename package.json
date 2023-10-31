@@ -2,7 +2,7 @@
   "name": "test-task",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ishkov2709/test-task",
+  "homepage": "https://ishkov2709.github.io/test-task/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /test-task/"
